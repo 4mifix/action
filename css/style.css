@@ -1,0 +1,186 @@
+  html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+h1, h2, a, p {
+  font-family: 'Indie Flower';
+  font-weight: bolder;
+}
+
+p {
+  font-family: 'Indie Flower', cursive, sans-serif;
+
+}
+ .container h1 {
+  margin: 0 auto;
+}
+/* Main */
+.main {
+  text-align: center;
+  background: url('http://gdurl.com/un13') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+}
+
+.main p {
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.main .btn {
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 21px;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+/* Supporting */
+.supporting {
+  text-align: center;
+  padding: 40px 0 90px;
+  background-color: #1c1c1c;
+
+}
+
+.supporting .col {
+  float: left;
+  width: 31%;
+}
+
+.supporting h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.supporting p {
+  color: #efefef;
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+.supporting .btn {
+  background-color: #eee;
+  color: #1c1c1c;
+  font-size: 21px;
+  padding: 8px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Feature */
+.feature {
+  height: 600px;
+  background: url('http://gdurl.com/x-1m') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.feature h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0;
+  padding:50px 0 0;
+  text-transform: uppercase;
+}
+
+/* Footer */
+.footer {
+  height: 600px;
+  background: url('http://gdurl.com/uc3g') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer h2 {
+  color: #fff;
+  font-size: 40px;
+  margin: 0 0 20px 0;
+  padding: 170px 0 0;
+  text-transform: uppercase;
+}
+
+.footer p {
+  color: #fff;
+  margin: 20px 0 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.footer .btn {
+ 	background-color: #1c1c1c;
+  color: #fff;
+  font-size: 21px;
+  font-style: bolder;
+  padding: 8px 30px;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.social {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #1c1c1c;
+  color: #fefefe;
+  padding: 21px;
+  position: relative;
+  font-size: 14px;
+/*   border-radius: 10px; */
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width:380px) {
+  .main h1 {
+    font-size: 125px;
+    text-transform: uppercase;
+    padding-top: 100px;
+  }
+
+  .supporting .col h2 p {
+    width: 30%;
+    text-overflow: none;
+  }
+
+  .supporting h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-top: 60px;
+  }
+
+  .supporting p {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .feature h2 {
+    font-size: 50px;
+    margin: 0;
+    padding: 290px 0 0;
+    text-transform: uppercase;
+  }
+
+  .social a {
+    border-radius: 10px;
+    padding: 10px ;
+  }
+}
+
+/* Photo by Mateo Avilar Chinchilla on Unsplash */
+/* Photo by Victor Erixon on Unsplash */
+/* Photo by Dylan Collette on Unsplash */
